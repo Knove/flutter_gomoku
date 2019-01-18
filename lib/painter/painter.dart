@@ -24,7 +24,7 @@ class GomokuPainter extends CustomPainter {
     // 绘制棋盘
     Paint paint = Paint();
     paint.color = Colors.black;
-    paint.strokeWidth = 1.5;
+    paint.strokeWidth = 1;
 
     for (var i = 0; i < rows; i += 1) {
       canvas.drawLine(Offset(pos_X, pos_Y + pos_Y * 2 * i),

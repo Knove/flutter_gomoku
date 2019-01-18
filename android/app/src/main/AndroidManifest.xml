@@ -14,7 +14,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="Kn - AI五子棋"
+        android:label="Kn AI Gomoku"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

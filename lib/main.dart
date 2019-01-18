@@ -1,32 +1,21 @@
 import 'package:flutter/material.dart';
-import 'widget/gamePage.dart';
-import 'widget/titleUI.dart';
+import 'router/router.dart';
 
-void main() => runApp(Gomoku());
+void main() => runApp(MainApp());
 
-class GomokuState extends State<Gomoku> {
-  int nowPlayer = 1;
+class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kn - Gomoku',
-      home: Scaffold(
-          body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[TitleUI(nowPlayer), SWidget(nowPlayer, update)],
-      )),
+      title: 'Router',
+
+      home: Index(),
+      // routes: {
+      //   // When we navigate to the "/" route, build the FirstScreen Widget
+      //   '/': (context) => Index(),
+      //   // When we navigate to the "/second" route, build the SecondScreen Widget
+      //   '/gomoku': (context) => Gomoku(),
+      // },
     );
   }
-
-  update(piece) {
-    setState(() {
-      nowPlayer = piece;
-    });
-  }
-}
-
-class Gomoku extends StatefulWidget {
-  @override
-  GomokuState createState() => new GomokuState();
 }
