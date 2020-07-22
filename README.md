@@ -1,4 +1,4 @@
- # <img src="https://flutter.dev/assets/flutter-lockup-4cb0ee072ab312e59784d9fbf4fb7ad42688a7fdaea1270ccf6bbf4f34b7e03f.svg" alt="Flutter" width="129" height="37" /> Gomoku
+ # <img src="https://flutter.dev/assets/flutter-lockup-1caf6476beed76adec3c477586da54de6b552b2f42108ec5bc68dc63bae2df75.png" alt="Flutter" width="129" height="37" /> Gomoku
 Gomoku,  based on Flutter. you may download /app/Flutter五子棋.apk  to play it.
 
 If you have any questions,  welcome create issue.
